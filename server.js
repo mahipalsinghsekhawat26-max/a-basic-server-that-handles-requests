@@ -30,8 +30,8 @@ const server = http.createServer((req, res) => {
     Current Mood: ${expression}
     
     Stats:
-    - Hunger: [${'¦'.repeat(monster.hunger / 10)}${'-'.repeat(10 - monster.hunger / 10)}] ${monster.hunger}%
-    - Boredom: [${'¦'.repeat(monster.boredom / 10)}${'-'.repeat(10 - monster.boredom / 10)}] ${monster.boredom}%
+    - Hunger: [${'Â¦'.repeat(monster.hunger / 10)}${'-'.repeat(10 - monster.hunger / 10)}] ${monster.hunger}%
+    - Boredom: [${'Â¦'.repeat(monster.boredom / 10)}${'-'.repeat(10 - monster.boredom / 10)}] ${monster.boredom}%
     
     Interact:
     - Go to /feed to give food
